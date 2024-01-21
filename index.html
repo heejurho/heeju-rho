@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heeju Rho</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img
+          src="./assets/logo.png"
+          alt="Heeju Rho Logo"
+          style="height: 13vh"
+        />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#clay">Claymation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo" id="thelogo"><img
+        src="./assets/logo.png"
+        alt="Heeju Rho Logo"
+        style="height: 13vh"
+      /></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links"
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#clay" onclick="toggleMenu()">Claymation</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div id="profile-stuff">
+        <div class="section__pic-container" style="text-align: center;">
+          <img src="./assets/2.png" alt="bloody blue dude" id="bluedude">
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">
+            Hi, I'm
+          </p>
+          <h1 class="title">Heeju Rho.</h1>
+          <p class="section__text__p2">This is a digital gallery of my artstuffs.</p>
+          <div class="btn-container" id="gallery-btn-container">
+            <button class="btn btn-color-2" 
+              onclick="location.href='#welcome'">Enter Gallery</button>
+          </div>
+          <div id="rights-alt">
+            <p class="rights__text__p">Copyright © 2024 Heeju Rho.</p>
+            <p class="rights__text__p">All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div id="rights">
+        <p class="rights__text__p">Copyright © 2024 Heeju Rho. All Rights Reserved.</p>
+      </div>
+    </section>
+    <section id="about">
+      <div id="about-text" class="header-box">
+        <h2 class="header">About Me</h2>
+        <p> I'm a university student, formally pursuing things quite separate from visual arts. Despite that, drawing is precious to me. I've recently tried to venture into other forms of media too, and I've felt <em>genuine excitement</em>. But this was dampened somewhat by the persistent thought that I really wasn't 'going anywhere' with my art. Most of my drawings remain in my sketchbooks, while some of the lucky ones get to live on my walls. Either way, if my house caught on fire I would have no more drawings. This website is me trying to put my creations out there, to let them feel a little more free and a little more immortal on the digital plane.</p>
+        <img src="assets/me.jpg" alt="me" id="me">
+        <div class="btn-container">
+          <button class="btn2 btn-color-2" id="homepagebtn"
+          onclick="location.href='#thelogo'">Homepage</button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="contact" class="header-box">
+      <div id="contact-text">
+        <h2 class="header">Want to Reach Out?</h2>
+        <p> Have you got questions, comments, or advices? Click on the icon below to send me an email.</p>
+        <img src="./assets/email.png" 
+          alt="my email" 
+          class="icon"
+          id="email2"
+          onclick="location.href='mailto:heeju.rho1@gmail.com'">
+      </div>
+      <button class="btn2 btn-color-2" id="homepagebtn2"
+          onclick="location.href='#thelogo'">Homepage</button>
+    </section>
+    <section id="welcome">
+      <h3 class="header">Welcome to the gallery.</h3>
+      <p>You can use the arrows to navigate through the digital rooms.</p>
+      <p>Every image is downloadable for personal use, but please do ask before distributing or reproducing my work.</p>
+      <p>I hope you enjoy.</p>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#thelogo'"
+      />
+      <div id="blueguy-container">
+        <img src="assets/IMG_6136.JPG" alt="1" id="blue">
+        <img src="assets/IMG_6138.JPG" alt="2" id="blue">
+        <img src="assets/IMG_6140.JPG" alt="3" id="blue">
+        <img src="assets/IMG_6146.JPG" alt="4" id="blue">
+      </div>
+      <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+        onclick="location.href='./#beasts'"
+      />
+    </section>
+    <section id="beasts">
+      <div id="beasts-text" class="header-box">
+        <h2 class="header">Beasts</h2>
+        <p> A drawing series. Not originally intended to be a series, but I think they are friends.</p>
+      </div>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#welcome'"
+      />
+      <div id="teeth-container" class="container">
+      <div class="gallery-grid">
+          <a href="assets/planetpalmer.jpg" data-lightbox="roadtrip" data-title="'Planet Palmer' (2019). Rotring isograph on A4 sketch paper." class="grid-img">
+            <h3>'Planet Palmer'</h3>
+          </a>
+          <a href="assets/Gate_to_the_Underworld.jpg" data-lightbox="roadtrip" data-title="'Sulphur' (2020). Rotring isograph and Copic markers on A4 sketch paper." class="grid-img">
+            <h3>'Sulphur'</h3>
+          </a>
+          <a href="assets/'Boxes'-1.png" data-lightbox="roadtrip" data-title="'Boxes' (2022). Rotring isograph, highlighters, and paint marker on A4 sketch paper." class="grid-img">
+            <h3>'Boxes'</h3>
+          </a>
+      </div>
+     </div>
+     <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+     onclick="location.href='./#misc1'"
+     />
+    </section>
+    <section id="misc1">
+      <div id="misc1-text" class="header-box">
+        <h2 class="header-alt">Bigger Stuff</h2>
+        <p>Done in school for art shows. Measuring in at A3, these are two of my larger detailed drawings. I hope to take on more projects like these in the future.</p>
+      </div>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#beasts'"
+      />
+      <div class="gallery-grid1">
+        <a href="assets/switches.jpg" data-lightbox="roadtrip" data-title="'Switches' (2018). Rotring isograph and acrylic paint on A3 sketch paper." class="grid-img2">
+          <h3>'Switches'</h3>
+        </a>
+        <a href="assets/fritz.jpg" data-lightbox="roadtrip" data-title="'Fritz' (2019). Rotring isograph on A3 sketch paper. A tribute to German film-maker Fritz Lang." class="grid-img2">
+          <h3>'Fritz'</h3>
+        </a>
+      </div>
+      <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+       onclick="location.href='./#teeth'"
+       />
+    </section>
+    <section id="teeth">
+      <div id="teeth-text" class="header-box">
+        <h2 class="header">Things With Teeth</h2>
+        <p> A series of various mediums, featuring snakes, teeth, and general pointiness.</p>
+      </div>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#misc1'"
+      />
+      <div id="teeth-container" class="container">
+      <div class="gallery-grid5">
+          <a href="assets/paint.jpg" data-lightbox="roadtrip" data-title="[Untitled] (2020). Acrylic paint on canvas. Don't really like this one." class="grid-img5">
+            <h3>'[Untitled]'</h3>
+          </a>
+          <a href="assets/cornucopia.jpg" data-lightbox="roadtrip" data-title="'Birds of the Hill' (2021). Rotring isograph and Copic markers on A4 sketch paper." class="grid-img5">
+            <h3>'Birds of the Hill'</h3>
+          </a>
+          <a href="assets/'Creatures', 2021.jpg" data-lightbox="roadtrip" data-title="'Creatures' (2021). Rotring isograph on A4 sketch paper." class="grid-img5">
+            <h3>'Creatures'</h3>
+          </a>
+          <a href="assets/One_Two_Skip_A_Few.jpg" data-lightbox="roadtrip" data-title="'One, Two, Skip A Few' (2021). Rotring ink and Copic markers on A4 sketch paper." class="grid-img5">
+              <h3>'One, Two, Skip A Few'</h3>
+          </a>
+          <a href="assets/delebimus!.jpg" data-lightbox="roadtrip" data-title="'delebimus!' (2022). Rotring isograph and color pencils on A4 sketch paper." class="grid-img5">
+              <h3>'delebimus!'</h3>
+          </a>
+          <a href="assets/something.jpg" data-lightbox="roadtrip" data-title="'Something With Teeth' (2023). Acrylic paint on A3 canvas." class="grid-img5">
+              <h3>'Something With Teeth'</h3>
+          </a>
+      </div>
+     </div>
+     <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+     onclick="location.href='./#horse'"
+     />
+    </section>
+    <section id="horse">
+      <div id="horse-text" class="header-box">
+        <h2 class="header">Horse</h2>
+        <p>A drawing series.</p>
+      </div>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#teeth'"
+      />
+      <div id="horse-container" class="container">
+      <div class="gallery">
+          <a href="assets/HorseVer1.jpg" data-lightbox="roadtrip" data-title="'Horse', Sketch (2021). Graphite pencil and color pencils on A3 sketch paper." class="img-box">
+              <h3>Sketch</h3>
+          </a>
+          <a href="assets/HorseVer2.jpg" data-lightbox="roadtrip" data-title="'Horse', Ver. 1 (2021). Rotring isograph on A4 sketch paper." class="img-box">
+            <h3>Version 1</h3>
+          </a>
+          <a href="assets/HorseVer3.jpg" data-lightbox="roadtrip" data-title="'Horse', Ver. 2 (2021). Fountain pen and watercolor pencils on A3 watercolor paper." class="img-box">
+            <h3>Version 2</h3>
+          </a>
+      </div>
+     </div>
+     <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+     onclick="location.href='./#others'"
+     />
+    </section>
+    <section id="others">
+      <div id="others-text" class="header-box">
+        <h2 class="header">Among Others</h2>
+        <p> A series meant to convey competing senses of belonging and isolation.</p>
+      </div>
+      <img src="assets/arrowup.png" alt="arrow" class="icon arrow2" 
+        onclick="location.href='./#horse'"
+      />
+      <div id="others-container" class="container">
+      <div class="gallery-grid3">
+          <a href="assets/'Noon at the Square', 2019.jpg" data-lightbox="roadtrip" data-title="'Noon at the Square' (2019). Fineliner on A4 sketch paper." class="grid-img3">
+            <h3>'Noon at the Square'</h3>
+          </a>
+          <a href="assets/friday.jpg" data-lightbox="roadtrip" data-title="'Friday Night' (2021). Rotring isograph and watercolor pencils on A4 sketch paper." class="grid-img3">
+            <h3>'Friday Night'</h3>
+          </a>
+          <a href="assets/friends.jpg" data-lightbox="roadtrip" data-title="'Family and Friends' (2021). Rotring isograph and fountain pen on A4 sketch paper." class="grid-img3">
+            <h3>'Family and Friends'</h3>
+          </a>
+          <a href="assets/Untitled_.png" data-lightbox="roadtrip" data-title="[Untitled] (2022). Fountain pen on A4 sketch paper." class="grid-img3-l">
+              <h3>[Untitled]</h3>
+          </a>
+      </div>
+     </div>
+     <img src="assets/arrow.png" alt="arrow" class="icon arrow" 
+     onclick="location.href='./#thanks'"
+     />
+    </section>
+    <section id="thanks">
+      <h3 class="header">Thanks!</h3>
+      <p>That's the end, for now.</p>
+      <p>You can return to the homepage, or check out the claymation page.</p>
+      <div class="btn-container2">
+        <button class="btn2 btn-color-2" 
+          onclick="location.href='#thelogo'">Homepage</button>
+        <button class="btn2 btn-color-2" id="clay-btn-alt"
+          onclick="location.href='#clay-alt'">Claymation</button>
+        <button class="btn2 btn-color-2" id="clay-btn"
+          onclick="location.href='#clay'">Claymation</button>
+      </div>
+    </section>
+    <section id="clay">
+      <div id="clay-text" class="header-box">
+        <h2 class="header-alt">Claymation</h2>
+        <p>A work in progress, but I've uploaded a test clip.</p>
+      </div>
+      <div class="gallery-grid7">
+        <div>
+          <video width="480" height="360" class="img-box6" controls muted autoplay>
+            <source src="/assets/clay.mp4" type=video/mp4>
+            Your browser does not support HTML5 video.
+          </video>
+          <button class="btn2 btn-color-2" id="homepagebtn"
+          onclick="location.href='#desktop-nav'">Homepage</button>
+        </div>
+            <a href="assets/3.png" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/4.jpeg" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/5.jpeg" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/8.jpeg" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/10.png" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/14.jpeg" data-lightbox="roadtrip" class="img-box7"></a>
+            <a href="assets/storyboard.jpg" data-lightbox="roadtrip" class="img-box7"></a>
+      </div>
+    </section>
+    <section id="clay-alt">
+      <div id="clay-alt-text" class="header-box">
+        <h2 class="header-alt">Claymation</h2>
+        <p>A work in progress, but I've uploaded a test clip.</p>
+      </div>
+      <div id="video-container">
+        <video width="480" height="360" class="img-box6" controls muted autoplay>
+          <source src="/assets/clay.mp4" type=video/mp4>
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div id ="clay-gallery-alt">
+        <a href="assets/3.png" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/4.jpeg" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/5.jpeg" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/8.jpeg" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/10.png" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/14.jpeg" data-lightbox="roadtrip" class="img-box7-alt"></a>
+        <a href="assets/storyboard.jpg" data-lightbox="roadtrip" class="img-box7-alt"></a>
+      </div>
+      <div class="btn-container">
+        <button class="btn2 btn-color-2" id="homepagebtn"
+          onclick="location.href='#thelogo'">Homepage</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="lightbox.js"></script>
+  </body>
+</html>
+

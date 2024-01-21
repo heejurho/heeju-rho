@@ -1,0 +1,395 @@
+@media screen and (max-width: 1100px) {
+  
+  /*lightbox*/
+
+  .collection-type-products .lightbox-content {
+    max: height 100vh;;
+  }
+
+  /*arrows*/
+
+  .arrow {
+    position: absolute;
+    right: 1vw;
+    bottom: 1vh;
+    height: 10vh;
+  }
+
+  .arrow2 {
+      position: absolute;
+      right: 20vw;
+      top: 89vh;
+      height: 10vh;
+  }
+  /*section dimensions*/
+
+  .btn-container2 {
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .body {
+    margin-left: 0;
+  }
+
+  #profile {
+    height: 83vh;
+  }
+
+  #desktop-nav {
+    height: 17vh;
+    width: 100vw;
+  }
+
+  .section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #about, #contact, #welcome, #beasts, #misc1, #horse, #teeth, #others, #thanks, #clay-alt {
+    height: 100vh;
+    margin: 0 5%;
+  }
+
+  .header {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .header-box, #rights{
+    width: 85vw;
+    margin: 0 4%;
+    display: block;
+  }
+
+  #rights p {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #rights {
+    align-self: center;
+    width: 100vw;
+  }
+  
+  /*profile section*/
+
+  #profile-stuff {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 65vh;
+  }
+
+  .section__pic-container, #rights {
+    height: 30vh;
+    margin: auto 0;
+    padding: 0;
+  }
+
+  .section__text {
+    align-self: center;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .section__text p {
+    font-weight: 600;
+    display: block;
+    padding: 0;
+  }
+
+  .section__text__p1, .rights__text__p {
+    text-align: center;
+    display: block;
+  }
+
+  .section__text__p2 {
+    font-size: 1rem;
+    display: block;
+  }
+
+  #rights-alt {
+    display: block;
+    text-align: max-content;
+    margin-top: 10vh;
+    width: 90vw;
+  }
+
+  #gallery-btn-container {
+    margin-top: 10vh;
+  }
+
+  #rights-alt p{
+    font-size: 0.6rem;
+  }
+
+  #rights {
+      display: none;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #socials-container {
+    display: block;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  /*contact*/
+
+  #homepagebtn2 {
+    margin-top: 30vh;
+  }
+
+  /*about*/
+
+  #about {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-text {
+      height: 5vh;
+  }
+
+  #me {
+      display: block;
+      padding: 2vh;
+      margin-left: auto;
+      margin-right: auto;
+      height: 30vh;
+    }
+
+  .btn2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*welcome*/
+
+  #welcome {
+    position: relative;
+    height: 100vh'
+  }
+
+  #blueguy-container {
+    padding: 10px;
+    height: 60vh;
+    margin: 20vh auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #blue {
+    width: 85%;
+    object-fit: contain;
+    background: url(assets/planetpalmer.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+  }
+
+  /*horse*/
+
+  #horse-text {
+    align-content: center;
+    justify-content: center;
+  }
+
+  /*bigger stuff*/
+
+  .gallery-grid1 {
+    padding: 10px;
+    height: 50vh;
+    margin: 20vh auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-img2 {
+    width: 100%;
+    object-fit: contain;
+    background: url(assets/switches.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    transition: width 0.5s;
+  }
+
+  .grid-img2:nth-child(2){
+    background: url(assets/fritz.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+
+  .grid-img2 h3{
+    color: rgb(175, 137, 201);
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+  }
+
+  .grid-img2:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    background-color: black;
+  }
+
+  /*thanks*/
+
+  .btn-container2 {
+    gap: 0.5rem;
+    padding: 0;
+    margin-top: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
+  /*clay change mechanics*/
+  
+  #clay {
+    visibility: hidden;
+  }
+
+  #clay-alt {
+    visibility: visible;
+  }
+
+  #clay-btn-alt {
+    visibility: visible;
+  }
+
+  #clay-btn {
+    visibility: hidden;
+  }
+
+  #clay .img-box7 {
+    visibility: hidden;
+  }
+
+  /*clay alt*/
+
+  #clay-alt {
+    height: 100vh;
+    position: relative;
+  }
+
+  #clay-alt-text {
+    height: 5vh;
+  }
+
+  video::-webkit-media-controls-volume-slider {
+      display:none;
+      }
+      
+      video::-webkit-media-controls-mute-button {
+      display:none;
+      }
+
+  video{
+      position: relative;
+      top: 45%;
+      transform: translateY(-50%);
+    }
+
+  #video-container {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #clay-gallery-alt {
+    margin-top: -20vh;
+    padding: 0;
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  
+  .img-box7-alt {
+    height: 10vh;
+    width: auto;
+    margin: 10px;
+    border-radius: 20px;
+    background: url(assets/3.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    transition: width 0.5s;
+  }
+
+  .img-box7-alt:nth-child(2){
+      background: url(assets/4.jpeg);
+      background-size: cover;
+      background-position:center;
+  }
+
+  .img-box7-alt:nth-child(3){
+      background: url(assets/5.jpeg);
+      background-size: cover;
+      background-position:center;
+  }
+
+  .img-box7-alt:nth-child(4){
+      background: url(assets/8.jpeg);
+      background-size: cover;
+      background-position:center;
+  }
+
+  .img-box7-alt:nth-child(5){
+      background: url(assets/10.png);
+      background-size: cover;
+  
+      background-position:center;
+  }
+
+  .img-box7-alt:nth-child(6){
+      background: url(assets/14.jpeg);
+      background-size: cover;
+      background-position:center;
+  }
+
+  .img-box7-alt:nth-child(7) {
+      background: url(assets/storyboard.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-column: span 3;
+  }
+
+  .img-box7-alt:hover {
+      cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
