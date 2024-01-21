@@ -102,6 +102,13 @@
     height: 65vh;
   }
 
+  .section__pic-container {
+    height: 20vh;
+    width: 80vw;
+    text-align: center;
+    margin-left: 14vw;
+  }
+
   #rights {
     height: 30vh;
     margin: 0 5%;
