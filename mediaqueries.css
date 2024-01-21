@@ -10,15 +10,15 @@
 
   .arrow {
     position: absolute;
-    right: 1vw;
-    bottom: 8vh;
+    right: 5vw;
+    bottom: 21vh;
     height: 9vh;
   }
 
   .arrow2 {
       position: absolute;
-      right: 20vw;
-      top: 83vh;
+      right: 26vw;
+      top: 70vh;
       height: 9vh;
   }
   /*section dimensions*/
@@ -117,12 +117,12 @@
   #rights-alt {
     display: block;
     text-align: max-content;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 90vw;
   }
 
   #gallery-btn-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
   #rights-alt p{
@@ -148,7 +148,7 @@
   /*contact*/
 
   #homepagebtn2 {
-    margin-top: 30vh;
+    margin-top: 10vh;
   }
 
   /*about*/
@@ -185,9 +185,8 @@
   }
 
   #blueguy-container {
-    padding: 10px;
     height: 60vh;
-    margin: 20vh auto;
+    margin: 10vh auto;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
@@ -207,7 +206,7 @@
   .gallery-grid {
     width: 100%;
     padding: 10px;
-    height: 55vh;
+    height: 40vh;
     margin: 10vh auto;
     display: grid;
     grid-gap: 10px;
@@ -234,8 +233,8 @@
 
   .gallery-grid1 {
     padding: 10px;
-    height: 50vh;
-    margin: 20vh auto;
+    height: 40vh;
+    margin: 18vh auto;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -272,12 +271,28 @@
     background-color: black;
   }
 
+  /*teeth*/
+
+  #teeth-arrow2 {
+    position: absolute;
+    right: 5vw;
+    bottom: 8vh;
+    height: 9vh;
+  }
+
+  #teeth-arrow1 {
+      position: absolute;
+      right: 26vw;
+      top: 83vh;
+      height: 9vh;
+  }
+
   /*thanks*/
 
   .btn-container2 {
     gap: 0.5rem;
     padding: 0;
-    margin-top: 70vh;
+    margin-top: 50vh;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
