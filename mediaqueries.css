@@ -11,15 +11,15 @@
   .arrow {
     position: absolute;
     right: 1vw;
-    bottom: 1vh;
-    height: 10vh;
+    bottom: 8vh;
+    height: 9vh;
   }
 
   .arrow2 {
       position: absolute;
       right: 20vw;
-      top: 89vh;
-      height: 10vh;
+      top: 83vh;
+      height: 9vh;
   }
   /*section dimensions*/
 
@@ -52,7 +52,7 @@
 
   #about, #contact, #welcome, #beasts, #misc1, #horse, #teeth, #others, #thanks, #clay-alt {
     height: 100vh;
-    margin: 0 5%;
+    margin: 20px 5%;
   }
 
   .header {
@@ -202,11 +202,32 @@
     position: relative;
   }
 
+  /*beasts*/
+
+  .gallery-grid {
+    width: 100%;
+    padding: 10px;
+    height: 55vh;
+    margin: 10vh auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+
   /*horse*/
 
   #horse-text {
     align-content: center;
     justify-content: center;
+  }
+
+  #horse-container {
+    height: 70vh;
+  }
+
+  .img-box {
+      height: 50vh;
   }
 
   /*bigger stuff*/
