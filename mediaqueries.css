@@ -12,6 +12,16 @@
     width: 100vw;
   }
 
+  /*video*/
+
+  video::-webkit-media-controls-volume-slider {
+    display:none;
+    }
+    
+    video::-webkit-media-controls-mute-button {
+    display:none;
+    }
+
   /*arrows*/
 
   .arrow {
