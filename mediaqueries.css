@@ -102,7 +102,7 @@
     height: 65vh;
   }
 
-  .section__pic-container, #rights {
+  #rights {
     height: 30vh;
     margin: 0 5%;
     padding: 0;
