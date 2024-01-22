@@ -571,7 +571,7 @@ section {
 .gallery-grid {
     width: 100%;
     padding: 10px;
-    height: 65vh;
+    height: 55vh;
     margin: 10vh auto;
     display: grid;
     grid-gap: 10px;
