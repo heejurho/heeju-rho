@@ -102,12 +102,12 @@
     height: 65vh;
   }
 
-  .section__pic-container {
-    height: 20vh;
-    width: 80vw;
-    text-align: center;
-    margin-left: 14vw;
-  }
+  #bluedude {
+    padding: 0;
+    margin: auto;
+    display: block;
+    height: 30vh;
+}
 
   #rights {
     height: 30vh;
