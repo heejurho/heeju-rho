@@ -697,7 +697,7 @@ section {
     height: 5vh;
 }
 
-.gallery-grid4 {
+.gallery-grid6 {
     padding: 10px;
     height: 60vh;
     margin: 10vh auto;
@@ -706,7 +706,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-img4 {
+.grid-img6 {
     width: 100%;
     object-fit: contain;
     background: url(assets/Prophet.jpg);
@@ -716,37 +716,37 @@ section {
     transition: width 0.5s;
 }
 
-.grid-img4:nth-child(2){
+.grid-img6:nth-child(2){
     background: url(assets/Self\ portrait.jpg);
     background-size: cover;
     background-position:center;
 }
 
-.grid-img4:nth-child(3){
+.grid-img6:nth-child(3){
     background: url(assets/Snares.jpg);
     background-size: cover;
     background-position:center;
 }
 
-.grid-img4:nth-child(4){
+.grid-img6:nth-child(4){
     background: url(assets/2_Construction\ Paper.jpg);
     background-size: cover;
     background-position:center;
 }
 
-.grid-img4:nth-child(5){
+.grid-img6:nth-child(5){
     background: url(assets/horseIV.JPG);
     background-size: cover;
     background-position:center;
 }
 
-.grid-img4:nth-child(6){
+.grid-img6:nth-child(6){
     background: url(assets/something.jpg);
     background-size: cover;
     background-position:center;
 }
 
-.grid-img4 h3{
+.grid-img6 h3{
     color: rgba(212, 85, 174, 0.37);
     position: absolute;
     bottom: 0;
@@ -755,7 +755,7 @@ section {
     transition: bottom 0.5s, opacity 0.5s;
 }
 
-.grid-img4:hover h3{
+.grid-img6:hover h3{
     opacity: 1;
     bottom: 25px;
     background-color: black;
