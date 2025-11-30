@@ -706,7 +706,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-img4:nth-child(1) {
+.grid-img4 {
     width: 100%;
     object-fit: contain;
     background: url(assets/Prophet.jpg);
