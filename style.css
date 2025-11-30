@@ -432,80 +432,6 @@ section {
     height: 10vh;
 }
 
-/*things with teeth*/
-
-#teeth {
-    height: 100vh;
-    position: relative;
-}
-
-#teeth-text {
-    height: 5vh;
-}
-
-.gallery-grid5 {
-    padding: 10px;
-    height: 60vh;
-    margin: 10vh auto;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-img5 {
-    width: 100%;
-    object-fit: contain;
-    background: url(assets/paint.jpg);
-    background-size: cover;
-    background-position:center;
-    position: relative;
-    transition: width 0.5s;
-}
-
-.grid-img5:nth-child(2){
-    background: url(assets/cornucopia.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-.grid-img5:nth-child(3){
-    background: url(assets/\'Creatures\'\,\ 2021.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-.grid-img5:nth-child(4){
-    background: url(assets/One_Two_Skip_A_Few.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-.grid-img5:nth-child(5){
-    background: url(assets/delebimus!.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-.grid-img5:nth-child(6){
-    background: url(assets/something.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-.grid-img5 h3{
-    color: red;
-    position: absolute;
-    bottom: 0;
-    left: 30px;
-    opacity: 0;
-    transition: bottom 0.5s, opacity 0.5s;
-}
-
-.grid-img5:hover h3{
-    opacity: 1;
-    bottom: 25px;
-    background-color: black;
-}
 
 /*bigger stuff*/
 
@@ -683,6 +609,158 @@ section {
     bottom: 25px;
     background-color: black;
 }
+
+
+/*things with teeth*/
+
+#teeth {
+    height: 100vh;
+    position: relative;
+}
+
+#teeth-text {
+    height: 5vh;
+}
+
+.gallery-grid5 {
+    padding: 10px;
+    height: 60vh;
+    margin: 10vh auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-img5 {
+    width: 100%;
+    object-fit: contain;
+    background: url(assets/paint.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.grid-img5:nth-child(2){
+    background: url(assets/cornucopia.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img5:nth-child(3){
+    background: url(assets/\'Creatures\'\,\ 2021.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img5:nth-child(4){
+    background: url(assets/One_Two_Skip_A_Few.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img5:nth-child(5){
+    background: url(assets/delebimus!.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img5:nth-child(6){
+    background: url(assets/something.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img5 h3{
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.grid-img5:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    background-color: black;
+}
+
+/*Recents*/
+
+#recent {
+    height: 100vh;
+    position: relative;
+}
+
+#recent-text {
+    height: 5vh;
+}
+
+.gallery-grid4 {
+    padding: 10px;
+    height: 60vh;
+    margin: 10vh auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-img4:nth-child(1) {
+    width: 100%;
+    object-fit: contain;
+    background: url(assets/Prophet.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.grid-img4:nth-child(2){
+    background: url(assets/Self\ portrait.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img4:nth-child(3){
+    background: url(assets/Snares.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img4:nth-child(4){
+    background: url(assets/2_Construction\ Paper.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img4:nth-child(5){
+    background: url(assets/horseIV.JPG);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img4:nth-child(6){
+    background: url(assets/something.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.grid-img4 h3{
+    color: rgba(212, 85, 174, 0.37);
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.grid-img4:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    background-color: black;
+}
+
 
 /*clay*/
 
